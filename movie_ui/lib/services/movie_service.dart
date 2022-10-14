@@ -11,7 +11,7 @@ class MovieService {
   final Dio _dio = Dio();
 
   final String baseUrl = 'https://api.themoviedb.org/3';
-  final String apiKey = 'api_key=f608fdbc670200b162049a1f3e2e1f03';
+  final String apiKey = 'api_key=API_KEY';
 
   Future<List<Movie>> getNowPlayingMovie() async{
     try{
